@@ -1,0 +1,57 @@
+https://www.google.com/search?client=firefox-b-d&q=deploy+kubernetes+locally+and+acces#kpvalbx=_PeW3XvWJNM2SjLsP5tmiqAc42
+
+#Instalando y probando Kubernetes en Windows 10
+https://enmilocalfunciona.io/instalando-y-probando-kubernetes-windows-10/
+
+
+#Kubernetes Dashboard
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml
+kubectl proxy
+Acceso: http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/.
+
+
+
+#Migrating a Spring Boot service to Kubernetes in 5 steps
+https://itnext.io/migrating-a-spring-boot-service-to-kubernetes-in-5-steps-7c1702da81b6
+https://www.appdynamics.com/blog/product/migrating-from-docker-compose-to-kubernetes/
+https://www.digitalocean.com/community/tutorials/how-to-migrate-a-docker-compose-workflow-to-kubernetes
+
+- Para ver servicio de tipo ClusterIp (cluster interno, no accesible desde local directamente.
+Tenemos que activar > kubectl proxy 
+Acceder al navegador por medio de la url http://localhost:8001/api/v1/namespaces/default/services/http:nginx:80/proxy/
+
+o
+
+Utilizar > kubectl port-forward service/nginx 80:80
+Y acceder a http://localhost:80/
+
+
+
+- informacion de un deployment
+kubectl get deployment nginx-deployement -o yaml
+kubectl describe deployment nginx-deployment
+
+
+
+
+
+#Docker remove images
+docker rmi $(docker images -a -q)
+
+#Docker remove containers
+docker rm $(docker ps -a -f status=exited -q)
+
+#Docker registry
+- Mas sencillo utilizar registry publico de DockerHub
+> docker login
+> docker tag springcommunity/spring-petclinic-config-server mintakorion/tfm-k8s-spring-petclinic-config-server:2.2.1
+> docker push mintakorion/tfm-petclinic-kubernetes/spring-petclinic-config-server:2.2.1
+
+NOTA: Se podría cambiar el prefijo en la generación de la imagen en el pom.xml
+
+https://docs.docker.com/registry/deploying/
+https://kubernetes.io/docs/concepts/containers/images/
+https://www.jorgedelacruz.es/2018/01/03/kubernetes-registry/
+
+
+#An end-to-end Spring Boot example w container and Kubernetes http://bit.ly/k8s-lab

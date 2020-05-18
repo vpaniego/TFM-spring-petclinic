@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tfm-config-server
+  labels:
+    app: tfm-config-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tfm-config-server
+  template:
+    metadata:
+      labels:
+        app: tfm-config-server
+    spec:
+      containers:
+      - name: tfm-k8s-spring-petclinic-config-server
+        image: mintakorion/tfm-k8s-spring-petclinic-config-server:2.2.1
+        ports:
+        - containerPort: 8888
