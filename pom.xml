@@ -173,10 +173,10 @@
                                     <entrypoint>
                                         <shell>sh</shell>
                                         <option>-c</option>
-                                        <arg>${project.build.finalName}.jar /app.jar</arg>
-                                        <arg>wget -O dockerize.tar.gz https://github.com/jwilder/dockerize/releases/download/${docker.image.dockerize.version}/dockerize-alpine-linux-amd64-${docker.image.dockerize.version}.tar.gz</arg>
+                                        <arg>cp ${project.build.finalName}.jar /app.jar</arg>
+                                        <!-- <arg>wget -O dockerize.tar.gz https://github.com/jwilder/dockerize/releases/download/${docker.image.dockerize.version}/dockerize-alpine-linux-amd64-${docker.image.dockerize.version}.tar.gz</arg>
                                         <arg>tar xzf dockerize.tar.gz</arg>
-                                        <arg>chmod +x dockerize</arg>
+                                        <arg>chmod +x dockerize</arg> -->
                                         <arg>java -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -Djava.security.egd=file:/dev/./urandom -jar /app.jar</arg>
                                     </entrypoint>
                                 </container>

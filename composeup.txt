@@ -1,0 +1,12 @@
+Vanesa@DESKTOP-4P8IG24 MINGW64 /c/Proyectos/TFM/Aplicacion_PetClinic/TFM-spring-petclinic (jib-branch)
+$ docker-compose up > composeup.txt
+tracing-server is up-to-date
+prometheus-server is up-to-date
+Starting config-server ...     
+Starting config-server ... done
+Starting discovery-server ... error
+
+ERROR: for discovery-server  Cannot start service discovery-server: OCI runtime create failed: container_linux.go:349: starting container process caused "exec: \"./dockerize\": stat ./dockerize: no such file or directory": unknown
+
+ERROR: for discovery-server  Cannot start service discovery-server: OCI runtime create failed: container_linux.go:349: starting container process caused "exec: \"./dockerize\": stat ./dockerize: no such file or directory": unknown
+ERROR: Encountered errors while bringing up the project.
