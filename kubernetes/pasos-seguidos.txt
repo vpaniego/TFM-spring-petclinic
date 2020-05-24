@@ -5,8 +5,8 @@ https://enmilocalfunciona.io/instalando-y-probando-kubernetes-windows-10/
 
 
 #Kubernetes Dashboard
-kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml
-kubectl proxy
+> kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0/aio/deploy/recommended.yaml
+> kubectl proxy
 Acceso: http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/.
 
 
@@ -16,42 +16,111 @@ https://itnext.io/migrating-a-spring-boot-service-to-kubernetes-in-5-steps-7c170
 https://www.appdynamics.com/blog/product/migrating-from-docker-compose-to-kubernetes/
 https://www.digitalocean.com/community/tutorials/how-to-migrate-a-docker-compose-workflow-to-kubernetes
 
-- Para ver servicio de tipo ClusterIp (cluster interno, no accesible desde local directamente.
-Tenemos que activar > kubectl proxy 
-Acceder al navegador por medio de la url http://localhost:8001/api/v1/namespaces/default/services/http:nginx:80/proxy/
-
-o
-
-Utilizar > kubectl port-forward service/nginx 80:80
-Y acceder a http://localhost:80/
-
-
-
-- informacion de un deployment
-kubectl get deployment nginx-deployement -o yaml
-kubectl describe deployment nginx-deployment
-
-
-
-
-
-#Docker remove images
-docker rmi $(docker images -a -q)
-
-#Docker remove containers
-docker rm $(docker ps -a -f status=exited -q)
-
-#Docker registry
-- Mas sencillo utilizar registry publico de DockerHub
+- Docker registry
+Mas sencillo utilizar registry publico de DockerHub
 > docker login
-> docker tag springcommunity/spring-petclinic-config-server mintakorion/tfm-k8s-spring-petclinic-config-server:2.2.1
-> docker push mintakorion/tfm-petclinic-kubernetes/spring-petclinic-config-server:2.2.1
+> docker tag springcommunity/spring-petclinic-config-server mintakorion/spring-petclinic-config-server:2.2.1
+> docker push mintakorion/spring-petclinic-config-server:2.2.1
 
 NOTA: Se podría cambiar el prefijo en la generación de la imagen en el pom.xml
 
+Para montar registry local o privado
 https://docs.docker.com/registry/deploying/
 https://kubernetes.io/docs/concepts/containers/images/
 https://www.jorgedelacruz.es/2018/01/03/kubernetes-registry/
 
 
-#An end-to-end Spring Boot example w container and Kubernetes http://bit.ly/k8s-lab
+- Levantar/Actualizar deployment (pods en modo declarativo)
+> kubectl apply -f .\config-server-deployment.yaml
+
+- Levantar/Actualizar servicio
+> kubectl apply -f .\config-server-service.yaml
+
+- Levantar/Actualizar ambos
+> kubectl apply -f .\config-server-deployment.yaml -f .\config-server-service.yaml
+
+- Información de componentes en kubernetes (pods, deployments, services, rs, ...)
+> kubectl get all
+
+- Informacion detallada del componente
+> kubectl get deployment tfm-config-server -o yaml
+> kubectl describe deployment tfm-config-server
+
+
+- Para ver servicio de tipo ClusterIp (cluster interno, no accesible desde local directamente).
+Tenemos que activar > kubectl proxy 
+Acceder al navegador por medio de la url http://localhost:8001/api/v1/namespaces/default/services/http:nginx:80/proxy/
+o Utilizar 
+> kubectl port-forward service/tfm-config-server-service 8888:8888
+Y acceder a http://localhost:8888/
+
+
+- Se generan shell script de utilidad:
+-- init-kubernetes-spring-petclinic.sh: Levantar todos el entorno de la aplicación en kubernetes
+-- end-kubernetes-spring-petclinic.sh: Terminar
+-- map-kubernetes-spring-petclinic-to-local-ports.sh: Publicar en puertos locales los distintos servicios de la aplicación
+
+NOTA: Este último script puede fallar porque al levantar cada POD, los servicios lanzan
+petición de obtención de configuración al servicio de configuracion (config-server).
+Esta configuración indica entre otras cosas el puerto en el que levantan cada servicio. 
+Si el servicio de configuración no terminó de levantar, el resto de servicio toma configuración
+por defecto, lo que significa que todos los servicios levantan en el puerto 8080.
+
+
+- Es necesario cambiar el repositorio git que utiliza nuestro config-server. 
+Para ello cambiamos "spring-petclinic-config-server/src/main/resources/bootstrap.yml"
+```
+spring.cloud.server:.git.uri: https://github.com/robertome/TFM-spring-petclinic-config
+```
+
+En el nuevo repositorio git cambiaremos todos los *.yml existentes para que apunten a 
+los servicios de discovery-server y tracking-server que hemos montado en Kubernetes:
+    - tfm-discovery-server-service
+    - tfm-tracing-server-service
+```
+spring:
+  zipki:
+    baseUrl: http://tfm-tracing-server-service:9411
+eureka:
+  client:
+    serviceUrl
+      defaultZone: http://tfm-discovery-server-service:8761/eureka/ 
+```
+
+Además, al desplegar en kubernates el servicio de descubrimiento (eureka), 
+se registra el nombre de los PODs y luego no se pueden resolver.
+El DNS de kubernetes KubeDNS registra el nombre del servicio (y los asocia a los PODs).
+Por lo tanto es necesario que activemos en la configuración de cada servicio el registro por IP
+
+```
+eureka:
+  instance:
+    preferIpAddress: true
+```
+
+- Fuentes: An end-to-end Spring Boot example w container and Kubernetes http://bit.ly/k8s-lab
+https://blog.christianposta.com/microservices/netflix-oss-or-kubernetes-how-about-both/
+https://dzone.com/articles/quick-guide-to-microservices-with-kubernetes-sprin
+
+
+
+
+   
+
+
+
+# Comandos utiles
+##Docker remove images 
+docker rmi $(docker images -a -q)
+
+##Docker remove containers
+docker rm $(docker ps -a -f status=exited -q)
+
+##Docker execute shell on container
+docker exec -it <container> sh
+
+##Kubernetes execute shell on container
+kubectl exec -it deployment.apps/tfm-visits-service sh
+
+- Para saber en que puerto esta activo el microservicio
+netstat -tulpn | grep LISTEN

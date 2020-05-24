@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tfm-tracing-server
+  labels:
+    app: tfm-tracing-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tfm-tracing-server
+  template:
+    metadata:
+      labels:
+        app: tfm-tracing-server
+    spec:
+      containers:
+        - env:
+            - name: JAVA_OPTS
+              value: -XX:+UnlockExperimentalVMOptions -Djava.security.egd=file:/dev/./urandom
+          name: tfm-tracing-server
+          image: openzipkin/zipkin
+          ports:
+            - containerPort: 9411
+          resources:
+            limits:
+              memory: 512Mi
+            requests:
+              memory: 128Mi

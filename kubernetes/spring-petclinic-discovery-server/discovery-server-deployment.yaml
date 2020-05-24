@@ -1,24 +1,27 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tfm-config-server
+  name: tfm-discovery-server
   labels:
-    app: tfm-config-server
+    app: tfm-discovery-server
+
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: tfm-config-server
+      app: tfm-discovery-server
+  
   template:
     metadata:
       labels:
-        app: tfm-config-server
+        app: tfm-discovery-server
+    
     spec:
       containers:
-      - name: spring-petclinic-config-server
-        image: mintakorion/spring-petclinic-config-server:2.2.1
+      - name: spring-petclinic-discovery-server
+        image: mintakorion/spring-petclinic-discovery-server:2.2.1
         ports:
-        - containerPort: 8888
+        - containerPort: 8761
         resources:
           limits:
             memory: 512Mi

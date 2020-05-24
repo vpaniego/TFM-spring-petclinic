@@ -1,24 +1,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: tfm-config-server
+  name: tfm-vets-service
   labels:
-    app: tfm-config-server
+    app: tfm-vets-service
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: tfm-config-server
+      app: tfm-vets-service
   template:
     metadata:
       labels:
-        app: tfm-config-server
+        app: tfm-vets-service
     spec:
       containers:
-      - name: spring-petclinic-config-server
-        image: mintakorion/spring-petclinic-config-server:2.2.1
+      - name: spring-petclinic-vets-service
+        image: mintakorion/spring-petclinic-vets-service:2.2.1
         ports:
-        - containerPort: 8888
+        - containerPort: 8083
         resources:
           limits:
             memory: 512Mi
