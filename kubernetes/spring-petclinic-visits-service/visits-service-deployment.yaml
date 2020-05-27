@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tfm-visits-service
+  labels:
+    app: tfm-visits-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tfm-visits-service
+  template:
+    metadata:
+      labels:
+        app: tfm-visits-service
+    spec:
+      containers:
+      - name: spring-petclinic-visits-service
+        image: mintakorion/spring-petclinic-visits-service:2.2.1
+        ports:
+        - containerPort: 8082
+        resources:
+          limits:
+            memory: 512Mi
+          requests:
+            memory: 128Mi

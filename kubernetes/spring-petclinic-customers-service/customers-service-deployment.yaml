@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tfm-customers-service
+  labels:
+    app: tfm-customers-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tfm-customers-service
+  template:
+    metadata:
+      labels:
+        app: tfm-customers-service
+    spec:
+      containers:
+      - name: spring-petclinic-customers-service
+        image: mintakorion/spring-petclinic-customers-service:2.2.1
+        ports:
+        - containerPort: 8081
+        resources:
+          limits:
+            memory: 512Mi
+          requests:
+            memory: 128Mi
