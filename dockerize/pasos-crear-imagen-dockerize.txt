@@ -1,0 +1,11 @@
+# 1. Crear un fichero Dockerfile con la imagen base y descargar el paquete para incluirlo en la imagen que servirá de imagen base para
+los microservicios con JIB
+
+# 2. Construir la imagen nueva
+docker build -t nespasec/openjdk8-jre-alpine:latest .
+
+# Revisamos si se ha creado la imagen
+docker images
+
+# Subir la imagen al docker hub 
+docker push nespasec/openjdk8-jre-alpine

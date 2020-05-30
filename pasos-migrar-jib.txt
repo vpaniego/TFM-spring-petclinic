@@ -1,0 +1,48 @@
+# Para poder utilizar JIB con maven es necesario incluir un plugin. 
+# Se reemplaza docker-maven-plugin por jib-maven-plugin
+# Seguir la documentación, para poder configurar correctamente, generar y publicar las imagenes docker desde maven.
+https://github.com/GoogleContainerTools/jib/tree/master/jib-maven-plugin
+
+Se modifican los siguientes pom.xml para poder empezar a trabajar con jib-maven-plugin
+pom.xml
+spring-petclinic-config-server/pom.xml
+spring-petclinic-discovery-server/pom.xml
+spring-petclinic-customers-server/pom.xml
+spring-petclinic-visits-server/pom.xml
+spring-petclinic-vets-server/pom.xml
+spring-petclinic-admin-server/pom.xml
+spring-petclinic-api-gateway/pom.xml
+
+
+# Se han realizado varias pruebas para intentar reproducir el contenido del Dockerfile original mediante comandos de JIB.
+https://github.com/GoogleContainerTools/jib/tree/master/jib-maven-plugin#configuration
+
+# Construir la imagen base con el script dockerize: Dockerfile contiene RUN ... y eso con jib no funciona. Hay que hacer una imagen
+https://github.com/GoogleContainerTools/jib/issues/1477
+# Uno de los principales problemas es no poder recrear el comando RUN de Dockerfile. Es necesario crear una imagen con ese paquete (ver el archivo /dockerize/pasos-crear-imagen-dockerize.txt
+
+# Otro de los inconvenientes es que no se ha podido copiar el archivo jar en la imagen y renombrarlo para que lo use docker-compose.yml como se está realizando en el Dockerfile:
+ADD ARTIFACT_JAR /app.jar
+
+# La ventaja de usar JIB reside en no tener que depender de las complejidades de un Dockerfile por eso se intenta simplicar:
+https://itnext.io/using-maven-to-build-docker-73c83e626025 
+
+# Finalmente para poder levantar correctamente los contendores es necesario modificar el archivo docker-compose.yml para que no ejecute app.jar
+
+# ---------------------------------------------------------------------------------------------
+
+# Comandos útiles:
+# Eliminar imagen
+docker image rm -f nespasec/spring-petclinic-config-server
+# Matar contenedor
+docker container kill cc8b99f177c4
+
+# Levantar un contenedor
+docker run -p 8888:8888 nespasec/spring-petclinic-config-server 
+
+# Inspeccionar una imagen
+docker inspect nespasec/spring-petclinic-config-server 
+
+# Abrir una consola para navegar dentro del contendor
+docker exec -it config-server sh 
+

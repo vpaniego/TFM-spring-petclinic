@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-petclinic-admin-server
-        image: mintakorion/spring-petclinic-admin-server:2.2.1
+        image: nespasec/spring-petclinic-admin-server:2.2.1
         ports:
         - containerPort: 9090
         resources:

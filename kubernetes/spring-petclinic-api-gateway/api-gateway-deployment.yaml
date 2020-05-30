@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-petclinic-api-gateway
-        image: mintakorion/spring-petclinic-api-gateway:2.2.1
+        image: nespasec/spring-petclinic-api-gateway:2.2.1
         ports:
         - containerPort: 8080
         resources:
