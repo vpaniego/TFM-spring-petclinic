@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: spring-petclinic-discovery-server
-        image: nespasec/spring-petclinic-discovery-server:2.2.1
+        image: mintakorion/spring-petclinic-discovery-server:2.2.2-SNAPSHOT
         ports:
         - containerPort: 8761
         resources:
