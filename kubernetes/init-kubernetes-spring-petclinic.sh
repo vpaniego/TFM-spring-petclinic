@@ -1,10 +1,10 @@
 #!/bin/bash
 
 kubectl apply -f ./spring-petclinic-config-server/config-server-deployment.yaml -f ./spring-petclinic-config-server/config-server-service.yaml
-sleep 10
+sleep 8
 
 kubectl apply -f ./tracing-server/tracing-server-deployment.yaml -f ./tracing-server/tracing-server-service.yaml
-sleep 10
+sleep 5
 
 kubectl apply -f ./spring-petclinic-customers-service/customers-service-deployment.yaml -f ./spring-petclinic-customers-service/customers-service-service.yaml
 kubectl apply -f ./spring-petclinic-visits-service/visits-service-deployment.yaml -f ./spring-petclinic-visits-service/visits-service-service.yaml
