@@ -4,8 +4,9 @@ metadata:
   name: tfm-customers-service
   labels:
     app: tfm-customers-service
+    tfm: "true"
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: tfm-customers-service

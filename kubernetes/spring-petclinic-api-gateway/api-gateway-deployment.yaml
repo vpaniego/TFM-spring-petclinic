@@ -4,6 +4,7 @@ metadata:
   name: tfm-api-gateway
   labels:
     app: tfm-api-gateway
+    tfm: "true"
 spec:
   replicas: 1
   selector:

@@ -4,11 +4,12 @@ metadata:
   name: tfm-config-server
   labels:
     app: tfm-config-server
+    tfm: "true"
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: tfm-config-server
+      app: tfm-config-server     
   template:
     metadata:
       labels:

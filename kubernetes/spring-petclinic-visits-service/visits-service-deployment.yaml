@@ -5,7 +5,7 @@ metadata:
   labels:
     app: tfm-visits-service
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: tfm-visits-service
@@ -13,6 +13,7 @@ spec:
     metadata:
       labels:
         app: tfm-visits-service
+        tfm: "true"
     spec:
       containers:
       - name: spring-petclinic-visits-service
