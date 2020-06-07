@@ -5,7 +5,7 @@ metadata:
   labels:
     app: tfm-customers-service
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: tfm-customers-service
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-petclinic-customers-service
-        image: nespasec/spring-petclinic-customers-service:2.2.1
+        image: mintakorion/spring-petclinic-customers-service:2.2.2-SNAPSHOT
         ports:
         - containerPort: 8081
         resources:
@@ -24,3 +24,20 @@ spec:
             memory: 512Mi
           requests:
             memory: 128Mi
+        readinessProbe:
+          httpGet:
+            path: /actuator/health
+            port: 8081
+          initialDelaySeconds: 40
+          timeoutSeconds: 2
+          periodSeconds: 10
+          failureThreshold: 2
+        livenessProbe:
+          httpGet:
+            path: /actuator/health
+            port: 8081
+          initialDelaySeconds: 100
+          timeoutSeconds: 2
+          periodSeconds: 10
+          failureThreshold: 1
+          

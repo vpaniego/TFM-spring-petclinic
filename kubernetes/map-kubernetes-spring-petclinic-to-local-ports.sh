@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #kubectl port-forward service/tfm-config-server-service      8888:8888 &
-kubectl port-forward service/tfm-discovery-server-service   8761:8761 &
+
 kubectl port-forward service/tfm-api-gateway-service        8080:8080 &
 #kubectl port-forward service/tfm-customers-service-service  8081:8081 &
 #kubectl port-forward service/tfm-visits-service-service     8082:8082 &

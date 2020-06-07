@@ -11,7 +11,7 @@
     <parent>
         <groupId>org.springframework.samples</groupId>
         <artifactId>spring-petclinic-microservices</artifactId>
-        <version>2.2.1</version>
+        <version>2.2.2-SNAPSHOT</version>
     </parent>
 
     <properties>
@@ -48,23 +48,31 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Spring Cloud-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-sleuth-zipkin</artifactId>
-        </dependency>
+        <!-- Spring Cloud-->        
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
+        <!-- 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+        -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-sleuth</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-sleuth-zipkin</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
+        </dependency>
+
 
         <!-- Third parties-->
         <dependency>

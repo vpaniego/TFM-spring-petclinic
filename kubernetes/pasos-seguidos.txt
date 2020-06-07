@@ -105,6 +105,12 @@ https://dzone.com/articles/quick-guide-to-microservices-with-kubernetes-sprin
 
 
 
+# Configurando direcciones de health-check para Kubernetes
+Fuente https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
+
+
+
+
    
 
 

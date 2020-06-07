@@ -3,7 +3,6 @@
 kubectl apply -f ./spring-petclinic-config-server/config-server-deployment.yaml -f ./spring-petclinic-config-server/config-server-service.yaml
 sleep 8
 
-kubectl apply -f ./spring-petclinic-discovery-server/discovery-server-deployment.yaml -f ./spring-petclinic-discovery-server/discovery-server-service.yaml
 kubectl apply -f ./tracing-server/tracing-server-deployment.yaml -f ./tracing-server/tracing-server-service.yaml
 sleep 5
 

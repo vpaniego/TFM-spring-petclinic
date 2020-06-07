@@ -15,11 +15,14 @@
  */
 package org.springframework.samples.petclinic.api.application;
 
-import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.samples.petclinic.api.dto.OwnerDetails;
 import org.springframework.stereotype.Component;
-import org.springframework.web.client.RestTemplate;
 import org.springframework.web.reactive.function.client.WebClient;
+
+import lombok.RequiredArgsConstructor;
 import reactor.core.publisher.Mono;
 
 /**
@@ -28,13 +31,25 @@ import reactor.core.publisher.Mono;
 @Component
 @RequiredArgsConstructor
 public class CustomersServiceClient {
+	
+	private static Logger log = LoggerFactory.getLogger(CustomersServiceClient.class);
+
+	@Value("${webclient.customers-service.uri:http://customers-service}")
+    private String hostname;
 
     private final WebClient.Builder webClientBuilder;
 
     public Mono<OwnerDetails> getOwner(final int ownerId) {
-        return webClientBuilder.build().get()
-            .uri("http://customers-service/owners/{ownerId}", ownerId)
+        String uri = hostname + "/owners/{ownerId}";
+        log.info("WebClient accessing URI: {}", uri);
+        
+		return webClientBuilder.build().get()
+            .uri(uri, ownerId)
             .retrieve()
             .bodyToMono(OwnerDetails.class);
+    }
+
+    void setHostname(String hostname) {
+        this.hostname = hostname;
     }
 }
