@@ -13,7 +13,6 @@ spec:
     metadata:
       labels:
         app: tfm-visits-service
-        tfm: "true"
     spec:
       containers:
       - name: spring-petclinic-visits-service

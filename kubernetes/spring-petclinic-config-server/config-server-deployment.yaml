@@ -4,7 +4,6 @@ metadata:
   name: tfm-config-server
   labels:
     app: tfm-config-server
-    tfm: "true"
 spec:
   replicas: 1
   selector:
