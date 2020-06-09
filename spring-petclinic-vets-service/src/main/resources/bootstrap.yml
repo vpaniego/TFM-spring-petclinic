@@ -10,3 +10,6 @@ spring:
   cloud:
     config:
       uri: http://tfm-config-server-service:8888
+      fail-fast: true
+      retry:
+        max-attempts: 5

@@ -12,6 +12,6 @@ kubectl apply -f ./spring-petclinic-vets-service/vets-service-deployment.yaml -f
 kubectl apply -f ./spring-petclinic-api-gateway/api-gateway-deployment.yaml -f ./spring-petclinic-api-gateway/api-gateway-service.yaml
 sleep 2
 
-#kubectl apply -f ./spring-petclinic-admin-server/admin-server-deployment.yaml -f ./spring-petclinic-admin-server/admin-server-service.yaml
+kubectl apply -f ./spring-petclinic-admin-server/admin-server-deployment.yaml -f ./spring-petclinic-admin-server/admin-server-service.yaml
 
 echo Started kubernetes-petclinic

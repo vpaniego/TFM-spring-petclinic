@@ -1,0 +1,17 @@
+# Cómo documentar tu API
+https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
+
+# Añadir dependencia maven en cada servicio para springfox-swagger2 y springfox-swagger-ui versión 2.9.2
+# Implementar una clase de configuración para SpringFox +  Swagger 2
+# En el caso de spring-petclinic-api-gateway es necesario añadir un repositorio adicional http://oss.jfrog.org/artifactory/oss-snapshot-local/ y una dependencia para springfox-spring-webflux porque es necesario que tiren de la versión 3.0.0-SNAPSHOT ya que existe un problema ya que Webflux no es soportado por Swagger y no está resuelto hasta la versión 3.0.0-SNAPSHOT.
+
+Spring-ReactiveWeb! Netty doesnt start after add Swagger 2 documentation
+https://stackoverflow.com/questions/47579276/spring-reactiveweb-netty-doesnt-start-after-add-swagger-2-documentation/50307973
+
+Quick tip: Swagger support for Spring Webflux
+https://elstarit.nl/?p=1213
+
+https://www.arquitecturajava.com/que-es-spring-webflux/
+
+# Para evitar que salga en la documentación basic-error-controller es necesario indicar en la clase de configuración, que sólo muestre los que tienen la anotacion RestController. Otra solución podría ser limitando sólo los de nuestro paquete. Pero puesto que son servicios muy pequeños, es más elegante indicar por anotación
+https://github.com/springfox/springfox/issues/631
