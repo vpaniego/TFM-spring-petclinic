@@ -13,5 +13,8 @@ kubectl apply -f ./spring-petclinic-api-gateway/api-gateway-deployment.yaml -f .
 sleep 2
 
 kubectl apply -f ./spring-petclinic-admin-server/admin-server-deployment.yaml -f ./spring-petclinic-admin-server/admin-server-service.yaml
+sleep 2
+
+kubectl apply -f ./prometheus/prometheus-config-map.yaml -f ./prometheus/prometheus-deployment.yaml -f ./prometheus/prometheus-service.yaml
 
 echo Started kubernetes-petclinic
