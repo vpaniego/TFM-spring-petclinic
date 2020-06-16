@@ -1,0 +1,41 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: tfm-prometheus-conf
+  labels:
+    name: tfm-prometheus-conf
+data:
+  prometheus.yml: |-
+    # my global config
+    global:
+      scrape_interval:     15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+      evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+      # scrape_timeout is set to the global default (10s).
+
+    # A scrape configuration containing exactly one endpoint to scrape:
+    # Here it's Prometheus itself.
+    scrape_configs:
+    - job_name: tf-prometheus-service
+      static_configs:
+      - targets: ['localhost:9090']
+
+    - job_name: tfm-api-gateway-service
+      metrics_path: /actuator/prometheus
+      static_configs:
+      - targets: ['tfm-api-gateway-service:8080']
+
+    - job_name: tfm-customers-service-service
+      metrics_path: /actuator/prometheus
+      static_configs:
+      - targets: ['tfm-customers-service-service:8081']
+
+    - job_name: tfm-visits-service-service
+      metrics_path: /actuator/prometheus
+      static_configs:
+      - targets: ['tfm-visits-service-service:8082']
+
+    - job_name: tfm-vets-service-service
+      metrics_path: /actuator/prometheus
+      static_configs:
+      - targets: ['tfm-vets-service-service:8083']
+
