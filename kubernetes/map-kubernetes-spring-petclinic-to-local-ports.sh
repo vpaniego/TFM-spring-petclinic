@@ -9,3 +9,4 @@ kubectl port-forward service/tfm-vets-service-service       8083:8083 &
 kubectl port-forward service/tfm-admin-server-service       9090:9090 &
 kubectl port-forward service/tfm-prometheus-service         9100:9100 &
 kubectl port-forward service/tfm-tracing-server-service     9411:9411 &
+kubectl port-forward service/tfm-grafana-service            3000:3000 &
