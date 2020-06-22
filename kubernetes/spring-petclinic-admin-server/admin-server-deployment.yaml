@@ -18,7 +18,7 @@ spec:
       - name: spring-petclinic-admin-server
         image: nespasec/spring-petclinic-admin-server:2.2.2-SNAPSHOT
         ports:
-        - containerPort: 9090
+        - containerPort: 9100
         resources:
           limits:
             memory: 512Mi

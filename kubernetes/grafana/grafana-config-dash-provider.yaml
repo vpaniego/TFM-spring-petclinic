@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: tfm-grafana-dash-provider
 data:
-  dashboards.yaml: |-
+  dashboards.yaml: |
     apiVersion: 1
 
     providers:

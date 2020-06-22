@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: tfm-grafana-dashs
 data:
-  grafana-petclinic-dashboard.json: |-
+  grafana-petclinic-dashboard.json: |
     {
       "__requires": [
         {

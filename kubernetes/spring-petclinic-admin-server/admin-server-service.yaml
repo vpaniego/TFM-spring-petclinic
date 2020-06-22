@@ -6,8 +6,8 @@ metadata:
     type: tfm
 spec:
   ports:
-  - name: "9090"
-    port: 9090
-    targetPort: 9090
+  - name: "9100"
+    port: 9100
+    targetPort: 9100
   selector:
     app: tfm-admin-server
