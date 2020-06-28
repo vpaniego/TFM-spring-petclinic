@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: spring-petclinic-vets-service
-        image: nespasec/spring-petclinic-vets-service:2.2.2-SNAPSHOT
+        image: mintakorion/spring-petclinic-vets-service:2.2.3-SNAPSHOT
         ports:
         - containerPort: 8083
         resources:
