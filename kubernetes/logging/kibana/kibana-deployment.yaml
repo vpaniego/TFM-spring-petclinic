@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tfm-kibana
+  namespace: tfm-logging
+spec:
+  selector:
+    matchLabels:
+      app: tfm-kibana
+  template:
+    metadata:
+      labels:
+        app: tfm-kibana
+    spec:
+      containers:
+        - name: tfm-kibana
+          image: docker.elastic.co/kibana/kibana:7.8.0
+          env:
+            - name: ELASTICSEARCH_URL
+              value: http://elasticsearch:9200
+            #- name: XPACK_SECURITY_ENABLED
+            #  value: "true"
+          ports:
+            - containerPort: 5601
+              name: http
+              protocol: TCP
+          resources:
+            limits:
+              cpu: 1000m
+              memory: 1Gi
+            requests:
+              cpu: 500m
+              memory: 512Mi
