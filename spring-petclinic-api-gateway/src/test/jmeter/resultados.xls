@@ -1,0 +1,1236 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1593802729245,53,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3263,263,1,1,http://localhost:8080/api/customer/owners,50,0,24
+1593802729627,15,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,15,0,0
+1593802730023,363,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/108,363,0,0
+1593802730770,22,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/108,0,0,0
+1593802731188,11,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/108/pets,11,0,0
+1593802731473,13,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/108/pets,13,0,0
+1593802731886,23,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/108/pets/202,0,0,0
+1593802732071,49,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/108/pets/202/visits,43,0,0
+1593802732536,32,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/108/pets/202/visits,30,0,0
+1593802732884,30,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,29,0,0
+1593802733172,63,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3233,263,1,1,http://localhost:8080/api/customer/owners,60,0,2
+1593802733553,23,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,23,0,0
+1593802733944,37,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/109,37,0,0
+1593802734316,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/109,0,0,0
+1593802734703,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/109/pets,25,0,0
+1593802735122,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/109/pets,22,0,0
+1593802735378,22,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/109/pets/204,0,0,0
+1593802735727,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/109/pets/204/visits,25,0,0
+1593802736140,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/109/pets/204/visits,25,0,0
+1593802736485,33,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,33,0,0
+1593802736717,18,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3258,263,1,1,http://localhost:8080/api/customer/owners,18,0,1
+1593802737040,19,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,19,0,0
+1593802737473,36,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/110,35,0,0
+1593802737701,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/110,0,0,0
+1593802738022,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/110/pets,23,0,0
+1593802738311,39,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/110/pets,38,0,0
+1593802738781,22,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/110/pets/206,0,0,0
+1593802739019,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/110/pets/206/visits,24,0,0
+1593802739303,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/110/pets/206/visits,24,0,0
+1593802739854,26,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593802740251,73,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3304,263,1,1,http://localhost:8080/api/customer/owners,67,0,3
+1593802740666,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802740934,33,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/111,33,0,0
+1593802741412,23,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/111,0,0,0
+1593802741781,13,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/111/pets,13,0,0
+1593802742043,27,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/111/pets,26,0,0
+1593802742336,23,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/111/pets/208,0,0,0
+1593802742593,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/111/pets/208/visits,25,0,0
+1593802742915,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/111/pets/208/visits,28,0,0
+1593802742955,26,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593802743281,103,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3316,263,1,1,http://localhost:8080/api/customer/owners,103,0,3
+1593802743622,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593802743861,35,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/112,35,0,0
+1593802744136,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/112,0,0,0
+1593802744589,26,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/112/pets,26,0,0
+1593802745015,27,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/112/pets,24,0,0
+1593802745481,22,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/112/pets/210,0,0,0
+1593802745909,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/112/pets/210/visits,26,0,0
+1593802746242,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/112/pets/210/visits,27,0,0
+1593802746288,20,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,19,0,0
+1593802746518,107,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3378,263,1,1,http://localhost:8080/api/customer/owners,100,0,2
+1593802746843,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802747114,36,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/113,36,0,0
+1593802747624,24,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/113,0,0,0
+1593802747855,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/113/pets,22,0,0
+1593802748258,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/113/pets,23,0,0
+1593802748688,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/113/pets/212,0,0,0
+1593802748991,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/113/pets/212/visits,26,0,0
+1593802749332,30,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/113/pets/212/visits,28,0,0
+1593802749584,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593802749964,66,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3418,263,1,1,http://localhost:8080/api/customer/owners,63,0,2
+1593802750329,15,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,15,0,0
+1593802750568,40,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/114,40,0,0
+1593802750868,24,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/114,0,0,0
+1593802751247,17,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/114/pets,16,0,0
+1593802751604,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/114/pets,22,0,0
+1593802752033,25,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/114/pets/214,0,0,0
+1593802752426,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/114/pets/214/visits,28,0,0
+1593802752722,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/114/pets/214/visits,24,0,0
+1593802753176,28,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,28,0,0
+1593802753476,73,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3402,263,1,1,http://localhost:8080/api/customer/owners,68,0,2
+1593802753798,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593802754191,35,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/115,35,0,0
+1593802754621,26,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/115,0,0,0
+1593802754953,27,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/115/pets,25,0,0
+1593802755176,27,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/115/pets,26,0,0
+1593802755520,25,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/115/pets/216,0,0,0
+1593802755868,30,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/115/pets/216/visits,29,0,0
+1593802756221,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/115/pets/216/visits,25,0,0
+1593802756446,39,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,35,0,0
+1593802756859,73,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3430,263,1,1,http://localhost:8080/api/customer/owners,70,0,3
+1593802757106,9,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,9,0,0
+1593802757403,12,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/116,12,0,0
+1593802757788,8,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/116,0,0,0
+1593802757997,16,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/116/pets,16,0,0
+1593802758225,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/116/pets,22,0,0
+1593802758324,23,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/116/pets/218,0,0,0
+1593802758651,24,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/116/pets/218/visits,24,0,0
+1593802758934,24,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/116/pets/218/visits,24,0,0
+1593802759355,27,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593802759680,86,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3453,263,1,1,http://localhost:8080/api/customer/owners,81,0,3
+1593802760182,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802760566,32,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/117,32,0,0
+1593802760992,23,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/117,0,0,0
+1593802761194,28,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/117/pets,27,0,0
+1593802761581,39,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/117/pets,39,0,0
+1593802761941,23,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/117/pets/220,0,0,0
+1593802762291,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/117/pets/220/visits,27,0,0
+1593802762595,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/117/pets/220/visits,25,0,0
+1593802762852,30,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,26,0,0
+1593802763164,65,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3474,263,1,1,http://localhost:8080/api/customer/owners,61,0,2
+1593802763642,24,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,24,0,0
+1593802763930,37,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/118,37,0,0
+1593802764186,23,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/118,0,0,0
+1593802764558,28,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/118/pets,26,0,0
+1593802764792,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/118/pets,24,0,0
+1593802765259,25,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/118/pets/222,0,0,0
+1593802765702,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/118/pets/222/visits,28,0,0
+1593802766113,8,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/118/pets/222/visits,8,0,0
+1593802766406,10,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,10,0,0
+1593802766893,80,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3495,263,1,1,http://localhost:8080/api/customer/owners,72,0,3
+1593802767415,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593802767531,39,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/119,39,0,0
+1593802767883,22,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/119,0,0,0
+1593802767994,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/119/pets,22,0,0
+1593802768185,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/119/pets,21,0,0
+1593802768623,25,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/119/pets/224,0,0,0
+1593802768996,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/119/pets/224/visits,27,0,0
+1593802769187,15,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/119/pets/224/visits,15,0,0
+1593802769518,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,23,0,0
+1593802769686,24,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3522,263,1,1,http://localhost:8080/api/customer/owners,24,0,2
+1593802770121,23,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,22,0,0
+1593802770572,15,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/120,15,0,0
+1593802770813,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/120,0,0,0
+1593802771198,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/120/pets,22,0,0
+1593802771481,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/120/pets,21,0,0
+1593802771744,14,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/120/pets/226,0,0,0
+1593802772257,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/120/pets/226/visits,25,0,0
+1593802772777,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/120/pets/226/visits,24,0,0
+1593802772978,37,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,30,0,0
+1593802773241,60,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3566,263,1,1,http://localhost:8080/api/customer/owners,57,0,2
+1593802773571,26,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,26,0,0
+1593802773780,34,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/121,34,0,0
+1593802774111,12,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/121,0,0,0
+1593802774365,32,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/121/pets,30,0,0
+1593802774690,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/121/pets,23,0,0
+1593802775051,22,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/121/pets/228,0,0,0
+1593802775535,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/121/pets/228/visits,26,0,0
+1593802775703,33,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/121/pets/228/visits,32,0,0
+1593802776100,27,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,26,0,0
+1593802776300,58,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3593,263,1,1,http://localhost:8080/api/customer/owners,57,0,2
+1593802776598,34,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,33,0,0
+1593802777099,38,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/122,38,0,0
+1593802777400,25,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/122,0,0,0
+1593802777758,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/122/pets,22,0,0
+1593802778014,21,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/122/pets,21,0,0
+1593802778218,26,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/122/pets/230,0,0,0
+1593802778522,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/122/pets/230/visits,27,0,0
+1593802778696,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/122/pets/230/visits,25,0,0
+1593802778938,24,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593802779282,71,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3610,263,1,1,http://localhost:8080/api/customer/owners,64,0,2
+1593802779642,7,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,7,0,0
+1593802779995,13,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/123,13,0,0
+1593802780213,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/123,0,0,0
+1593802780645,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/123/pets,22,0,0
+1593802781097,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/123/pets,23,0,0
+1593802781471,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/123/pets/232,0,0,0
+1593802781659,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/123/pets/232/visits,25,0,0
+1593802781977,9,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/123/pets/232/visits,9,0,0
+1593802782204,8,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,8,0,0
+1593802782669,79,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3641,263,1,1,http://localhost:8080/api/customer/owners,79,0,2
+1593802783133,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,19,0,0
+1593802783386,39,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/124,39,0,0
+1593802783670,7,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/124,0,0,0
+1593802783937,7,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,264,378,1,1,http://localhost:8080/api/customer/owners/124/pets,7,0,0
+1593802784158,33,Add Pet,404,Not Found,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/",304,378,1,1,http://localhost:8080/api/customer/owners/124/pets,33,0,0
+1593802784482,22,Update Pet,404,Not Found,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/",306,400,1,1,http://localhost:8080/api/customer/owners/124/pets/234,22,0,0
+1593802784861,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/124/pets/234/visits,24,0,0
+1593802785281,33,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/124/pets/234/visits,29,0,0
+1593802785787,24,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593802786060,75,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3243,263,1,1,http://localhost:8080/api/customer/owners,70,0,2
+1593802786307,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802786590,43,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/107,43,0,0
+1593802787062,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/107,0,0,0
+1593802787258,28,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/107/pets,25,0,0
+1593802787486,16,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/107/pets,16,0,0
+1593802787667,42,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/107/pets/205,0,0,0
+1593802788162,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/107/pets/205/visits,26,0,0
+1593802788504,38,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/107/pets/205/visits,37,0,0
+1593802788833,28,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593802789145,36,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3242,263,1,1,http://localhost:8080/api/customer/owners,34,0,1
+1593802789414,23,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593802789808,72,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,635,266,1,1,http://localhost:8080/api/gateway/owners/108,72,0,0
+1593802790127,24,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/108,0,0,0
+1593802790558,27,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/108/pets,26,0,0
+1593802790786,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/108/pets,24,0,0
+1593802790999,24,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/108/pets/207,0,0,0
+1593802791353,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/108/pets/207/visits,25,0,0
+1593802791686,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/108/pets/207/visits,28,0,0
+1593802791797,14,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,14,0,0
+1593802792141,66,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3270,263,1,1,http://localhost:8080/api/customer/owners,66,0,4
+1593802792537,11,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,9,0,0
+1593802792913,55,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,630,266,1,1,http://localhost:8080/api/gateway/owners/109,55,0,0
+1593802793232,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/109,0,0,0
+1593802793480,27,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/109/pets,27,0,0
+1593802793755,8,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/109/pets,8,0,0
+1593802793966,24,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/109/pets/209,0,0,0
+1593802794265,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/109/pets/209/visits,23,0,0
+1593802794577,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/109/pets/209/visits,23,0,0
+1593802794843,24,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,22,0,0
+1593802795555,72,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3293,263,1,1,http://localhost:8080/api/customer/owners,70,0,3
+1593802796039,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,22,0,0
+1593802796396,35,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,631,266,1,1,http://localhost:8080/api/gateway/owners/110,35,0,0
+1593802796953,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/110,0,0,0
+1593802797289,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/110/pets,23,0,0
+1593802797488,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/110/pets,22,0,0
+1593802797753,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/110/pets/211,0,0,0
+1593802798230,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/110/pets/211/visits,26,0,0
+1593802798648,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/110/pets/211/visits,25,0,0
+1593802799059,32,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,31,0,0
+1593802799435,73,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3321,263,1,1,http://localhost:8080/api/customer/owners,70,0,2
+1593802799777,24,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,24,0,0
+1593802799952,38,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,637,266,1,1,http://localhost:8080/api/gateway/owners/111,38,0,0
+1593802800418,46,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/111,0,0,0
+1593802800781,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/111/pets,21,0,0
+1593802801049,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/111/pets,22,0,0
+1593802801203,32,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/111/pets/213,0,0,0
+1593802801755,11,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/111/pets/213/visits,11,0,0
+1593802802064,31,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/111/pets/213/visits,26,0,0
+1593802802517,35,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,33,0,0
+1593802802992,88,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3361,263,1,1,http://localhost:8080/api/customer/owners,70,0,3
+1593802803406,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802803659,38,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,633,266,1,1,http://localhost:8080/api/gateway/owners/112,38,0,0
+1593802804042,25,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/112,0,0,0
+1593802804319,35,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/112/pets,35,0,0
+1593802804770,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/112/pets,23,0,0
+1593802805318,22,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/112/pets/215,0,0,0
+1593802805630,32,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/112/pets/215/visits,32,0,0
+1593802805999,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/112/pets/215/visits,26,0,0
+1593802806272,26,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593802806698,23,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3371,263,1,1,http://localhost:8080/api/customer/owners,20,0,2
+1593802807022,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802807383,51,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,635,266,1,1,http://localhost:8080/api/gateway/owners/113,51,0,0
+1593802807627,24,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/113,0,0,0
+1593802807747,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/113/pets,24,0,0
+1593802808258,27,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/113/pets,27,0,0
+1593802808666,23,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/113/pets/217,0,0,0
+1593802808875,30,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/113/pets/217/visits,28,0,0
+1593802809385,7,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/113/pets/217/visits,7,0,0
+1593802809645,27,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,27,0,0
+1593802809976,68,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3394,263,1,1,http://localhost:8080/api/customer/owners,67,0,2
+1593802810215,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593802810564,34,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,639,266,1,1,http://localhost:8080/api/gateway/owners/114,33,0,0
+1593802810931,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/114,0,0,0
+1593802811231,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/114/pets,22,0,0
+1593802811784,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/114/pets,24,0,0
+1593802812064,25,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/114/pets/219,0,0,0
+1593802812541,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/114/pets/219/visits,24,0,0
+1593802812980,13,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/114/pets/219/visits,12,0,0
+1593802813238,24,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593802813554,102,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3416,263,1,1,http://localhost:8080/api/customer/owners,102,0,2
+1593802813961,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802814325,37,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,633,266,1,1,http://localhost:8080/api/gateway/owners/115,37,0,0
+1593802814584,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/115,0,0,0
+1593802814842,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/115/pets,23,0,0
+1593802815142,29,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/115/pets,29,0,0
+1593802815506,22,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/115/pets/221,0,0,0
+1593802815767,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/115/pets/221/visits,25,0,0
+1593802816068,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/115/pets/221/visits,24,0,0
+1593802816386,27,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,26,0,0
+1593802816661,81,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3466,263,1,1,http://localhost:8080/api/customer/owners,76,0,2
+1593802817083,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,19,0,0
+1593802817361,44,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,639,266,1,1,http://localhost:8080/api/gateway/owners/116,44,0,0
+1593802817773,28,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/116,0,0,0
+1593802817993,6,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/116/pets,6,0,0
+1593802818371,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,264,378,1,1,http://localhost:8080/api/customer/owners/116/pets,22,0,0
+1593802818803,29,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/116/pets/223,0,0,0
+1593802819143,31,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/116/pets/223/visits,27,0,0
+1593802819527,22,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/116/pets/223/visits,19,0,0
+1593802819787,24,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593802820215,38,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3480,263,1,1,http://localhost:8080/api/customer/owners,35,0,2
+1593802820431,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802820783,38,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,631,266,1,1,http://localhost:8080/api/gateway/owners/117,38,0,0
+1593802821213,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/117,0,0,0
+1593802821568,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/117/pets,25,0,0
+1593802821780,26,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/117/pets,25,0,0
+1593802822039,24,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/117/pets/225,0,0,0
+1593802822453,24,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/117/pets/225/visits,23,0,0
+1593802822793,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/117/pets/225/visits,23,0,0
+1593802823175,35,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,29,0,0
+1593802823617,64,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3489,263,1,1,http://localhost:8080/api/customer/owners,63,0,4
+1593802823995,24,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,22,0,0
+1593802824277,35,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,635,266,1,1,http://localhost:8080/api/gateway/owners/118,35,0,0
+1593802824737,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/118,0,0,0
+1593802825090,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/118/pets,21,0,0
+1593802825258,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/118/pets,23,0,0
+1593802825691,26,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/118/pets/227,0,0,0
+1593802826005,22,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/118/pets/227/visits,20,0,0
+1593802826164,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/118/pets/227/visits,26,0,0
+1593802826540,24,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,23,0,0
+1593802827055,76,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3532,263,1,1,http://localhost:8080/api/customer/owners,73,0,2
+1593802827333,15,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,15,0,0
+1593802827513,35,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,631,266,1,1,http://localhost:8080/api/gateway/owners/119,35,0,0
+1593802827929,8,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/119,0,0,0
+1593802828201,7,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/119/pets,7,0,0
+1593802828464,29,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/119/pets,27,0,0
+1593802828890,26,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/119/pets/229,0,0,0
+1593802829262,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/119/pets/229/visits,24,0,0
+1593802829594,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/119/pets/229/visits,23,0,0
+1593802829927,16,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,16,0,0
+1593802830275,73,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3557,263,1,1,http://localhost:8080/api/customer/owners,67,0,3
+1593802830726,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,19,0,0
+1593802831132,40,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,635,266,1,1,http://localhost:8080/api/gateway/owners/120,40,0,0
+1593802831576,11,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/120,0,0,0
+1593802831933,26,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/120/pets,26,0,0
+1593802832416,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/120/pets,24,0,0
+1593802832648,27,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/120/pets/231,0,0,0
+1593802832971,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/120/pets/231/visits,24,0,0
+1593802833412,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/120/pets/231/visits,24,0,0
+1593802833842,28,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,26,0,0
+1593802834237,81,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3565,263,1,1,http://localhost:8080/api/customer/owners,80,0,2
+1593802834599,30,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,30,0,0
+1593802834664,31,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,631,266,1,1,http://localhost:8080/api/gateway/owners/121,31,0,0
+1593802834844,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/121,0,0,0
+1593802835136,27,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/121/pets,25,0,0
+1593802835458,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,264,378,1,1,http://localhost:8080/api/customer/owners/121/pets,23,0,0
+1593802835786,24,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/121/pets/233,0,0,0
+1593802835921,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/121/pets/233/visits,25,0,0
+1593802836272,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/121/pets/233/visits,27,0,0
+1593802836582,27,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593802836870,40,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3591,263,1,1,http://localhost:8080/api/customer/owners,40,0,2
+1593802837002,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593802837251,39,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,633,266,1,1,http://localhost:8080/api/gateway/owners/122,39,0,0
+1593802837376,33,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/122,0,0,0
+1593802837784,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/122/pets,24,0,0
+1593802838091,26,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/122/pets,25,0,0
+1593802838418,23,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/122/pets/235,0,0,0
+1593802838682,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/122/pets/235/visits,24,0,0
+1593802839070,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/122/pets/235/visits,24,0,0
+1593802839269,28,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,26,0,0
+1593802839524,29,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3613,263,1,1,http://localhost:8080/api/customer/owners,27,0,1
+1593802839858,23,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,22,0,0
+1593802840015,41,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,635,266,1,1,http://localhost:8080/api/gateway/owners/123,41,0,0
+1593802840521,23,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/123,0,0,0
+1593802840838,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/123/pets,23,0,0
+1593802841112,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/123/pets,25,0,0
+1593802841447,12,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/123/pets/237,0,0,0
+1593802841781,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/123/pets/237/visits,25,0,0
+1593802842154,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/123/pets/237/visits,29,0,0
+1593802842671,27,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593802842939,65,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3685,263,1,1,http://localhost:8080/api/customer/owners,62,0,2
+1593802843166,27,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,25,0,0
+1593802843530,33,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,418,266,1,1,http://localhost:8080/api/gateway/owners/124,33,0,0
+1593802843784,20,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/124,0,0,0
+1593802844004,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/124/pets,23,0,0
+1593802844258,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/124/pets,23,0,0
+1593802844680,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/124/pets/239,0,0,0
+1593802844925,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/124/pets/239/visits,24,0,0
+1593802845261,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/124/pets/239/visits,24,0,0
+1593802845617,34,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,28,0,0
+1593802845975,76,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3659,263,1,1,http://localhost:8080/api/customer/owners,75,0,2
+1593802846394,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802846739,27,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1420,266,1,1,http://localhost:8080/api/gateway/owners/125,26,0,0
+1593802847066,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/125,0,0,0
+1593802847179,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/125/pets,24,0,0
+1593802847540,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/125/pets,22,0,0
+1593802847783,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/125/pets/241,0,0,0
+1593802848101,41,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/125/pets/241/visits,39,0,0
+1593802848453,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/125/pets/241/visits,25,0,0
+1593802848698,26,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,26,0,0
+1593802849023,100,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3700,263,1,1,http://localhost:8080/api/customer/owners,97,0,2
+1593802849237,24,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,23,0,0
+1593802849416,25,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1420,266,1,1,http://localhost:8080/api/gateway/owners/126,24,0,0
+1593802849640,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/126,0,0,0
+1593802849915,30,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/126/pets,29,0,0
+1593802850240,31,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/126/pets,31,0,0
+1593802850647,26,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/126/pets/243,0,0,0
+1593802851139,30,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/126/pets/243/visits,29,0,0
+1593802851429,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/126/pets/243/visits,24,0,0
+1593802851585,29,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,27,0,0
+1593802851884,75,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3754,263,1,1,http://localhost:8080/api/customer/owners,69,0,2
+1593802852214,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593802852430,30,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1420,266,1,1,http://localhost:8080/api/gateway/owners/127,29,0,0
+1593802852913,35,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/127,0,0,0
+1593802853246,36,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/127/pets,34,0,0
+1593802853552,15,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/127/pets,15,0,0
+1593802853699,29,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/127/pets/245,0,0,0
+1593802853889,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/127/pets/245/visits,27,0,0
+1593802854232,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/127/pets/245/visits,29,0,0
+1593802854612,24,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,23,0,0
+1593802855094,71,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3730,263,1,1,http://localhost:8080/api/customer/owners,66,0,3
+1593802855416,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593802855846,21,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1420,266,1,1,http://localhost:8080/api/gateway/owners/128,21,0,0
+1593802856315,7,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/128,0,0,0
+1593802856549,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/128/pets,22,0,0
+1593802856752,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/128/pets,22,0,0
+1593802857030,30,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/128/pets/247,0,0,0
+1593802857339,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/128/pets/247/visits,26,0,0
+1593802857661,24,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/128/pets/247/visits,24,0,0
+1593802857942,28,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593802858102,74,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3767,263,1,1,http://localhost:8080/api/customer/owners,71,0,2
+1593802858648,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,19,0,0
+1593802858882,28,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1420,266,1,1,http://localhost:8080/api/gateway/owners/129,28,0,0
+1593802859127,24,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/129,0,0,0
+1593802859444,31,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/129/pets,28,0,0
+1593802859853,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/129/pets,22,0,0
+1593802860228,12,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/129/pets/249,0,0,0
+1593802860641,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/129/pets/249/visits,28,0,0
+1593802861105,33,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/129/pets/249/visits,28,0,0
+1593802861559,36,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,34,0,0
+1593802861975,22,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3819,263,1,1,http://localhost:8080/api/customer/owners,22,0,1
+1593802862393,19,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,19,0,0
+1593802862772,31,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1419,266,1,1,http://localhost:8080/api/gateway/owners/130,31,0,0
+1593802863054,23,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/130,0,0,0
+1593802863611,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/130/pets,25,0,0
+1593802863908,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/130/pets,22,0,0
+1593802864259,26,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/130/pets/251,0,0,0
+1593802864545,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/130/pets/251/visits,26,0,0
+1593802864868,37,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/130/pets/251/visits,37,0,0
+1593802865126,24,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,23,0,0
+1593802865390,88,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3791,263,1,1,http://localhost:8080/api/customer/owners,84,0,2
+1593802865698,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593802866200,32,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1418,266,1,1,http://localhost:8080/api/gateway/owners/131,31,0,0
+1593802866452,25,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/131,0,0,0
+1593802866723,35,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/131/pets,33,0,0
+1593802867055,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/131/pets,23,0,0
+1593802867333,24,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/131/pets/253,0,0,0
+1593802867759,16,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/131/pets/253/visits,16,0,0
+1593802867949,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/131/pets/253/visits,25,0,0
+1593802868443,7,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,7,0,0
+1593802868886,97,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3819,263,1,1,http://localhost:8080/api/customer/owners,97,0,3
+1593802869250,27,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,26,0,0
+1593802869395,33,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1420,266,1,1,http://localhost:8080/api/gateway/owners/132,33,0,0
+1593802869719,26,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/132,0,0,0
+1593802869910,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/132/pets,24,0,0
+1593802870338,29,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/132/pets,28,0,0
+1593802870623,31,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/132/pets/255,0,0,0
+1593802870696,31,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/132/pets/255/visits,28,0,0
+1593802871066,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/132/pets/255/visits,28,0,0
+1593802871386,34,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,32,0,0
+1593802871667,86,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3859,263,1,1,http://localhost:8080/api/customer/owners,82,0,2
+1593802872033,16,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,15,0,0
+1593802872313,33,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1419,266,1,1,http://localhost:8080/api/gateway/owners/133,32,0,0
+1593802872558,26,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/133,0,0,0
+1593802872827,28,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/133/pets,26,0,0
+1593802873242,31,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/133/pets,30,0,0
+1593802873545,29,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/133/pets/257,0,0,0
+1593802873794,54,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/133/pets/257/visits,50,0,0
+1593802874156,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/133/pets/257/visits,27,0,0
+1593802874391,45,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,44,0,0
+1593802874767,99,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3913,263,1,1,http://localhost:8080/api/customer/owners,96,0,3
+1593802875256,23,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,22,0,0
+1593802875489,15,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1417,266,1,1,http://localhost:8080/api/gateway/owners/134,15,0,0
+1593802875722,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/134,0,0,0
+1593802876071,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/134/pets,24,0,0
+1593802876396,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/134/pets,24,0,0
+1593802876593,23,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/134/pets/259,0,0,0
+1593802876805,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/134/pets/259/visits,24,0,0
+1593802877200,31,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/134/pets/259/visits,28,0,0
+1593802877606,27,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593802877891,74,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3887,263,1,1,http://localhost:8080/api/customer/owners,73,0,2
+1593802878168,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802878483,31,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1419,266,1,1,http://localhost:8080/api/gateway/owners/135,30,0,0
+1593802878838,22,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/135,0,0,0
+1593802879104,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/135/pets,23,0,0
+1593802879368,27,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/135/pets,25,0,0
+1593802879734,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/135/pets/261,0,0,0
+1593802880088,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/135/pets/261/visits,27,0,0
+1593802880448,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/135/pets/261/visits,26,0,0
+1593802880672,27,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593802880835,74,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3924,263,1,1,http://localhost:8080/api/customer/owners,71,0,2
+1593802881281,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593802881592,27,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1419,266,1,1,http://localhost:8080/api/gateway/owners/136,27,0,0
+1593802881868,26,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/136,0,0,0
+1593802882321,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/136/pets,21,0,0
+1593802882654,44,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/136/pets,44,0,0
+1593802883118,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/136/pets/263,0,0,0
+1593802883632,31,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/136/pets/263/visits,26,0,0
+1593802883913,45,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/136/pets/263/visits,39,0,0
+1593802884257,29,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,27,0,0
+1593802884626,85,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3982,263,1,1,http://localhost:8080/api/customer/owners,84,0,3
+1593802885029,28,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,25,0,0
+1593802885288,27,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1419,266,1,1,http://localhost:8080/api/gateway/owners/137,27,0,0
+1593802885473,23,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/137,0,0,0
+1593802885926,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/137/pets,24,0,0
+1593802886188,29,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/137/pets,29,0,0
+1593802886649,25,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/137/pets/265,0,0,0
+1593802887053,32,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/137/pets/265/visits,32,0,0
+1593802887504,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/137/pets/265/visits,24,0,0
+1593802887766,28,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,26,0,0
+1593802887955,78,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3999,263,1,1,http://localhost:8080/api/customer/owners,76,0,4
+1593802888343,32,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593802888595,27,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1420,266,1,1,http://localhost:8080/api/gateway/owners/138,27,0,0
+1593802888904,25,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/138,0,0,0
+1593802889322,28,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/138/pets,27,0,0
+1593802889376,14,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/138/pets,13,0,0
+1593802889737,22,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/138/pets/267,0,0,0
+1593802889876,23,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/138/pets/267/visits,23,0,0
+1593802890212,24,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/138/pets/267/visits,24,0,0
+1593802890455,22,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,22,0,0
+1593802890715,73,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4007,263,1,1,http://localhost:8080/api/customer/owners,70,0,2
+1593802891024,24,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,22,0,0
+1593802891298,24,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1419,266,1,1,http://localhost:8080/api/gateway/owners/139,24,0,0
+1593802891720,18,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/139,0,0,0
+1593802892009,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/139/pets,24,0,0
+1593802892173,21,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/139/pets,20,0,0
+1593802892470,16,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/139/pets/269,0,0,0
+1593802892841,23,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/139/pets/269/visits,22,0,0
+1593802893198,34,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,259,353,1,1,http://localhost:8080/api/visit/owners/139/pets/269/visits,28,0,0
+1593802893421,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593802893697,80,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3692,263,1,1,http://localhost:8080/api/customer/owners,78,0,2
+1593802894180,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593802894549,35,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/125,35,0,0
+1593802894886,15,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/125,0,0,0
+1593802895143,20,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/125/pets,20,0,0
+1593802895385,20,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/125/pets,20,0,0
+1593802895674,12,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/125/pets/235,0,0,0
+1593802896052,16,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/125/pets/235/visits,14,0,0
+1593802896419,10,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/125/pets/235/visits,9,0,0
+1593802896635,23,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,22,0,0
+1593802897046,90,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3677,263,1,1,http://localhost:8080/api/customer/owners,88,0,2
+1593802897334,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,17,0,0
+1593802897816,41,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/126,41,0,0
+1593802898142,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/126,0,0,0
+1593802898536,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/126/pets,23,0,0
+1593802898887,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/126/pets,23,0,0
+1593802899132,13,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/126/pets/237,0,0,0
+1593802899381,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/126/pets/237/visits,24,0,0
+1593802899827,8,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/126/pets/237/visits,8,0,0
+1593802900145,23,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,23,0,0
+1593802900512,74,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3725,263,1,1,http://localhost:8080/api/customer/owners,70,0,2
+1593802900739,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,19,0,0
+1593802901120,37,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/127,37,0,0
+1593802901465,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/127,0,0,0
+1593802901715,26,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/127/pets,24,0,0
+1593802902089,21,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/127/pets,21,0,0
+1593802902430,25,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/127/pets/239,0,0,0
+1593802902731,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,244,353,1,1,http://localhost:8080/api/visit/owners/127/pets/239/visits,26,0,0
+1593802902931,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/127/pets/239/visits,25,0,0
+1593802903406,31,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,28,0,0
+1593802903842,67,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3728,263,1,1,http://localhost:8080/api/customer/owners,65,0,2
+1593802904144,12,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,12,0,0
+1593802904309,37,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/128,37,0,0
+1593802904598,24,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/128,0,0,0
+1593802904897,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/128/pets,21,0,0
+1593802905215,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/128/pets,23,0,0
+1593802905647,23,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/128/pets/241,0,0,0
+1593802905993,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/128/pets/241/visits,24,0,0
+1593802906305,13,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/128/pets/241/visits,13,0,0
+1593802906757,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593802907113,69,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3734,263,1,1,http://localhost:8080/api/customer/owners,66,0,3
+1593802907350,19,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,19,0,0
+1593802907751,36,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/129,36,0,0
+1593802908023,16,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/129,0,0,0
+1593802908342,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/129/pets,23,0,0
+1593802908451,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/129/pets,24,0,0
+1593802908795,23,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/129/pets/243,0,0,0
+1593802909086,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/129/pets/243/visits,25,0,0
+1593802909283,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/129/pets/243/visits,29,0,0
+1593802909680,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593802909957,92,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3775,263,1,1,http://localhost:8080/api/customer/owners,83,0,2
+1593802910289,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,19,0,0
+1593802910507,38,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/130,38,0,0
+1593802910783,23,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/130,0,0,0
+1593802911125,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/130/pets,25,0,0
+1593802911534,27,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/130/pets,25,0,0
+1593802911755,22,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/130/pets/245,0,0,0
+1593802912117,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/130/pets/245/visits,26,0,0
+1593802912433,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/130/pets/245/visits,23,0,0
+1593802912670,27,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593802913074,64,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3821,263,1,1,http://localhost:8080/api/customer/owners,61,0,2
+1593802913512,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,19,0,0
+1593802913874,32,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/131,31,0,0
+1593802914132,22,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/131,0,0,0
+1593802914612,26,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/131/pets,26,0,0
+1593802914947,26,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/131/pets,25,0,0
+1593802915146,25,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/131/pets/247,0,0,0
+1593802915471,7,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/131/pets/247/visits,7,0,0
+1593802915767,24,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/131/pets/247/visits,24,0,0
+1593802916130,28,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,27,0,0
+1593802916456,72,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3824,263,1,1,http://localhost:8080/api/customer/owners,70,0,2
+1593802916947,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,19,0,0
+1593802917262,36,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/132,36,0,0
+1593802917541,22,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/132,0,0,0
+1593802917824,29,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/132/pets,26,0,0
+1593802917994,13,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/132/pets,13,0,0
+1593802918453,24,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/132/pets/249,0,0,0
+1593802918759,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/132/pets/249/visits,27,0,0
+1593802919107,23,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/132/pets/249/visits,23,0,0
+1593802919439,50,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,49,0,0
+1593802919779,101,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3866,263,1,1,http://localhost:8080/api/customer/owners,71,0,4
+1593802920349,10,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,10,0,0
+1593802920586,32,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/133,32,0,0
+1593802920933,22,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/133,0,0,0
+1593802921457,13,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/133/pets,13,0,0
+1593802921734,17,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/133/pets,16,0,0
+1593802921928,7,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/133/pets/251,0,0,0
+1593802922213,24,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/133/pets/251/visits,23,0,0
+1593802922400,24,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/133/pets/251/visits,24,0,0
+1593802922782,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593802923063,69,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3867,263,1,1,http://localhost:8080/api/customer/owners,68,0,2
+1593802923420,26,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,23,0,0
+1593802923788,36,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/134,36,0,0
+1593802924102,32,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/134,0,0,0
+1593802924363,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/134/pets,22,0,0
+1593802924756,26,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/134/pets,26,0,0
+1593802924939,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/134/pets/253,0,0,0
+1593802925295,22,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/134/pets/253/visits,21,0,0
+1593802925435,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/134/pets/253/visits,28,0,0
+1593802925684,24,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,23,0,0
+1593802925988,71,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3900,263,1,1,http://localhost:8080/api/customer/owners,67,0,2
+1593802926501,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802926867,35,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/135,35,0,0
+1593802927282,20,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/135,0,0,0
+1593802927641,20,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/135/pets,20,0,0
+1593802928099,7,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/135/pets,7,0,0
+1593802928490,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/135/pets/255,0,0,0
+1593802928899,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/135/pets/255/visits,24,0,0
+1593802929062,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/135/pets/255/visits,27,0,0
+1593802929158,10,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,10,0,0
+1593802929363,95,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3922,263,1,1,http://localhost:8080/api/customer/owners,95,0,2
+1593802929819,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593802930193,33,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/136,33,0,0
+1593802930475,20,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/136,0,0,0
+1593802930737,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/136/pets,23,0,0
+1593802931083,21,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/136/pets,20,0,0
+1593802931481,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/136/pets/257,0,0,0
+1593802931590,31,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/136/pets/257/visits,29,0,0
+1593802931915,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,258,353,1,1,http://localhost:8080/api/visit/owners/136/pets/257/visits,24,0,0
+1593802932178,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593802932484,68,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3975,263,1,1,http://localhost:8080/api/customer/owners,65,0,2
+1593802932910,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,22,0,0
+1593802933114,36,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/137,36,0,0
+1593802933491,20,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/137,0,0,0
+1593802933641,26,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/137/pets,26,0,0
+1593802933896,26,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/137/pets,26,0,0
+1593802934217,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/137/pets/259,0,0,0
+1593802934613,23,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/137/pets/259/visits,23,0,0
+1593802934999,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/137/pets/259/visits,22,0,0
+1593802935196,29,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,27,0,0
+1593802935400,80,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3968,263,1,1,http://localhost:8080/api/customer/owners,78,0,2
+1593802935829,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802936180,41,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/138,41,0,0
+1593802936623,20,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/138,0,0,0
+1593802937211,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/138/pets,22,0,0
+1593802937461,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/138/pets,23,0,0
+1593802937873,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/138/pets/261,0,0,0
+1593802938200,37,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/138/pets/261/visits,34,0,0
+1593802938485,24,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/138/pets/261/visits,23,0,0
+1593802938727,33,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,31,0,0
+1593802939100,19,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4009,263,1,1,http://localhost:8080/api/customer/owners,18,0,0
+1593802939409,31,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,28,0,0
+1593802939769,35,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/139,35,0,0
+1593802939956,23,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/139,0,0,0
+1593802940415,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/139/pets,23,0,0
+1593802940810,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/139/pets,25,0,0
+1593802941096,22,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/139/pets/263,0,0,0
+1593802941299,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,258,353,1,1,http://localhost:8080/api/visit/owners/139/pets/263/visits,25,0,0
+1593802941560,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/139/pets/263/visits,25,0,0
+1593802941898,26,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593802942142,66,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,3986,263,1,1,http://localhost:8080/api/customer/owners,65,0,2
+1593802942721,23,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802943209,32,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/140,32,0,0
+1593802943593,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/140,0,0,0
+1593802943867,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/140/pets,22,0,0
+1593802944089,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/140/pets,22,0,0
+1593802944415,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/140/pets/265,0,0,0
+1593802944625,30,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/140/pets/265/visits,27,0,0
+1593802944954,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/140/pets/265/visits,25,0,0
+1593802945094,24,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,23,0,0
+1593802945559,65,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4027,263,1,1,http://localhost:8080/api/customer/owners,60,0,2
+1593802945856,8,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,8,0,0
+1593802946036,27,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/141,27,0,0
+1593802946434,24,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/141,0,0,0
+1593802946715,26,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/141/pets,26,0,0
+1593802947092,30,Add Pet,404,Not Found,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/",304,378,1,1,http://localhost:8080/api/customer/owners/141/pets,29,0,0
+1593802947447,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/141/pets/267,0,0,0
+1593802947811,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/141/pets/267/visits,26,0,0
+1593802948277,39,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,258,353,1,1,http://localhost:8080/api/visit/owners/141/pets/267/visits,34,0,0
+1593802948411,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,23,0,0
+1593802948925,86,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4070,263,1,1,http://localhost:8080/api/customer/owners,73,0,2
+1593802949314,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,22,0,0
+1593802949763,41,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,632,266,1,1,http://localhost:8080/api/gateway/owners/140,41,0,0
+1593802950180,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/140,0,0,0
+1593802950634,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/140/pets,22,0,0
+1593802950990,32,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/140/pets,31,0,0
+1593802951370,27,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/140/pets/271,0,0,0
+1593802951662,57,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/140/pets/271/visits,55,0,0
+1593802951920,21,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/140/pets/271/visits,21,0,0
+1593802952364,24,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593802952609,66,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4059,263,1,1,http://localhost:8080/api/customer/owners,65,0,3
+1593802952924,11,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,11,0,0
+1593802953174,34,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,547,266,1,1,http://localhost:8080/api/gateway/owners/141,34,0,0
+1593802953558,19,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/141,0,0,0
+1593802954043,19,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/141/pets,18,0,0
+1593802954388,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/141/pets,21,0,0
+1593802954759,20,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/141/pets/273,0,0,0
+1593802955145,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/141/pets/273/visits,25,0,0
+1593802955392,47,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/141/pets/273/visits,42,0,0
+1593802955736,16,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,15,0,0
+1593802955919,73,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4064,263,1,1,http://localhost:8080/api/customer/owners,69,0,2
+1593802956209,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802956436,28,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1419,266,1,1,http://localhost:8080/api/gateway/owners/142,28,0,0
+1593802956822,22,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/142,0,0,0
+1593802957211,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/142/pets,22,0,0
+1593802957670,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/142/pets,23,0,0
+1593802958017,20,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/142/pets/275,0,0,0
+1593802958291,38,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,258,353,1,1,http://localhost:8080/api/visit/owners/142/pets/275/visits,37,0,0
+1593802958582,24,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/142/pets/275/visits,24,0,0
+1593802958786,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,23,0,0
+1593802959178,78,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4120,263,1,1,http://localhost:8080/api/customer/owners,76,0,2
+1593802959451,36,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,36,0,0
+1593802959689,12,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1419,266,1,1,http://localhost:8080/api/gateway/owners/143,12,0,0
+1593802960024,6,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/143,0,0,0
+1593802960290,6,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/143/pets,6,0,0
+1593802960563,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/143/pets,23,0,0
+1593802960849,20,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/143/pets/277,0,0,0
+1593802961120,22,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/143/pets/277/visits,22,0,0
+1593802961387,22,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/143/pets/277/visits,21,0,0
+1593802961798,21,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,21,0,0
+1593802962063,66,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4123,263,1,1,http://localhost:8080/api/customer/owners,64,0,2
+1593802962337,24,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802962741,28,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1421,266,1,1,http://localhost:8080/api/gateway/owners/144,28,0,0
+1593802962961,11,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/144,0,0,0
+1593802963267,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/144/pets,22,0,0
+1593802963519,21,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/144/pets,21,0,0
+1593802963759,22,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/144/pets/279,0,0,0
+1593802964147,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/144/pets/279/visits,23,0,0
+1593802964468,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,258,353,1,1,http://localhost:8080/api/visit/owners/144/pets/279/visits,24,0,0
+1593802964757,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593802965266,69,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4174,263,1,1,http://localhost:8080/api/customer/owners,67,0,2
+1593802965607,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802965986,25,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1420,266,1,1,http://localhost:8080/api/gateway/owners/145,24,0,0
+1593802966276,19,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/145,0,0,0
+1593802966738,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/145/pets,23,0,0
+1593802967257,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/145/pets,23,0,0
+1593802967610,24,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/145/pets/281,0,0,0
+1593802968035,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/145/pets/281/visits,24,0,0
+1593802968428,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/145/pets/281/visits,23,0,0
+1593802968670,22,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,22,0,0
+1593802969209,106,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4205,263,1,1,http://localhost:8080/api/customer/owners,101,0,2
+1593802969500,11,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,11,0,0
+1593802969926,32,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1420,266,1,1,http://localhost:8080/api/gateway/owners/146,32,0,0
+1593802970308,27,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/146,0,0,0
+1593802970615,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/146/pets,22,0,0
+1593802971006,28,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/146/pets,26,0,0
+1593802971393,26,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/146/pets/283,0,0,0
+1593802971643,22,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/146/pets/283/visits,22,0,0
+1593802971857,23,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/146/pets/283/visits,23,0,0
+1593802972209,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593802972373,71,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4231,263,1,1,http://localhost:8080/api/customer/owners,69,0,2
+1593802972718,25,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,24,0,0
+1593802973034,9,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1419,266,1,1,http://localhost:8080/api/gateway/owners/147,9,0,0
+1593802973421,7,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/147,0,0,0
+1593802973902,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/147/pets,21,0,0
+1593802974215,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/147/pets,21,0,0
+1593802974558,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/147/pets/285,0,0,0
+1593802974717,23,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,258,353,1,1,http://localhost:8080/api/visit/owners/147/pets/285/visits,20,0,0
+1593802974996,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/147/pets/285/visits,26,0,0
+1593802975209,27,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,23,0,0
+1593802975371,73,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4251,263,1,1,http://localhost:8080/api/customer/owners,73,0,2
+1593802975701,28,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,27,0,0
+1593802976171,26,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1420,266,1,1,http://localhost:8080/api/gateway/owners/148,26,0,0
+1593802976463,22,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/148,0,0,0
+1593802976852,9,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/148/pets,9,0,0
+1593802977199,6,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/148/pets,6,0,0
+1593802977451,19,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/148/pets/287,0,0,0
+1593802978028,24,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/148/pets/287/visits,24,0,0
+1593802978319,24,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/148/pets/287/visits,24,0,0
+1593802978524,26,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593802978789,75,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4304,263,1,1,http://localhost:8080/api/customer/owners,75,0,2
+1593802979121,12,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,12,0,0
+1593802979449,30,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1421,266,1,1,http://localhost:8080/api/gateway/owners/149,30,0,0
+1593802979671,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/149,0,0,0
+1593802980066,21,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/149/pets,20,0,0
+1593802980396,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/149/pets,22,0,0
+1593802980654,20,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/149/pets/289,0,0,0
+1593802980897,37,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/149/pets/289/visits,36,0,0
+1593802981300,15,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,258,353,1,1,http://localhost:8080/api/visit/owners/149/pets/289/visits,14,0,0
+1593802981461,15,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,14,0,0
+1593802981806,35,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4277,263,1,1,http://localhost:8080/api/customer/owners,34,0,1
+1593802982138,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802982461,13,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1420,266,1,1,http://localhost:8080/api/gateway/owners/150,13,0,0
+1593802982811,11,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/150,0,0,0
+1593802983029,27,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/150/pets,26,0,0
+1593802983314,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/150/pets,24,0,0
+1593802983536,27,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/150/pets/291,0,0,0
+1593802983845,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/150/pets/291/visits,25,0,0
+1593802984179,48,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/150/pets/291/visits,45,0,0
+1593802984373,23,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,22,0,0
+1593802984740,69,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4315,263,1,1,http://localhost:8080/api/customer/owners,68,0,3
+1593802985184,6,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,6,0,0
+1593802985429,8,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1419,266,1,1,http://localhost:8080/api/gateway/owners/151,8,0,0
+1593802985738,18,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/151,0,0,0
+1593802986077,21,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/151/pets,20,0,0
+1593802986491,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,264,378,1,1,http://localhost:8080/api/customer/owners/151/pets,24,0,0
+1593802986858,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/151/pets/293,0,0,0
+1593802987323,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/151/pets/293/visits,26,0,0
+1593802987466,14,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/151/pets/293/visits,14,0,0
+1593802987973,24,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,23,0,0
+1593802988215,93,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4326,263,1,1,http://localhost:8080/api/customer/owners,87,0,2
+1593802988595,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802988935,23,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1420,266,1,1,http://localhost:8080/api/gateway/owners/152,23,0,0
+1593802989102,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/152,0,0,0
+1593802989682,21,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/152/pets,20,0,0
+1593802990213,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/152/pets,22,0,0
+1593802990404,22,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/152/pets/295,0,0,0
+1593802990808,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,258,353,1,1,http://localhost:8080/api/visit/owners/152/pets/295/visits,25,0,0
+1593802991016,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/152/pets/295/visits,25,0,0
+1593802991294,28,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,26,0,0
+1593802991610,72,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4366,263,1,1,http://localhost:8080/api/customer/owners,68,0,2
+1593802991942,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593802992228,27,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1420,266,1,1,http://localhost:8080/api/gateway/owners/153,27,0,0
+1593802992639,15,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/153,0,0,0
+1593802993013,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/153/pets,21,0,0
+1593802993324,15,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/153/pets,14,0,0
+1593802993560,20,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/153/pets/297,0,0,0
+1593802993873,6,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/153/pets/297/visits,6,0,0
+1593802994062,23,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/153/pets/297/visits,21,0,0
+1593802994316,23,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,22,0,0
+1593802994600,50,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4389,263,1,1,http://localhost:8080/api/customer/owners,46,0,2
+1593802994849,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593802995247,25,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1419,266,1,1,http://localhost:8080/api/gateway/owners/154,24,0,0
+1593802995475,20,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/154,0,0,0
+1593802995988,32,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/154/pets,27,0,0
+1593802996442,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/154/pets,22,0,0
+1593802996824,22,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/154/pets/299,0,0,0
+1593802997131,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/154/pets/299/visits,24,0,0
+1593802997619,19,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,258,353,1,1,http://localhost:8080/api/visit/owners/154/pets/299/visits,18,0,0
+1593802997976,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593802998275,95,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4410,263,1,1,http://localhost:8080/api/customer/owners,90,0,2
+1593802998772,15,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,15,0,0
+1593802999058,26,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1419,266,1,1,http://localhost:8080/api/gateway/owners/155,25,0,0
+1593802999393,23,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/155,0,0,0
+1593802999661,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/155/pets,20,0,0
+1593802999877,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/155/pets,21,0,0
+1593803000253,20,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/155/pets/301,0,0,0
+1593803000557,23,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/155/pets/301/visits,22,0,0
+1593803000773,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,247,353,1,1,http://localhost:8080/api/visit/owners/155/pets/301/visits,22,0,0
+1593803000994,28,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593803001395,69,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4403,263,1,1,http://localhost:8080/api/customer/owners,68,0,2
+1593803001831,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593803002139,29,Owner Details,500,Internal Server Error,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[5]]]00
+
+****** comparison: [[[2]]]00
+
+/",1419,266,1,1,http://localhost:8080/api/gateway/owners/156,29,0,0
+1593803002499,30,Update Owner,404,Not Found,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[4]]]04
+
+****** comparison: [[[2]]]04
+
+/",301,447,1,1,http://localhost:8080/api/customer/owners/156,29,0,0
+1593803002786,22,Add Pet,404,Not Found,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/",304,378,1,1,http://localhost:8080/api/customer/owners/156/pets,22,0,0
+1593803003338,27,Add Pet,404,Not Found,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/",304,378,1,1,http://localhost:8080/api/customer/owners/156/pets,26,0,0
+1593803003682,24,Update Pet,405,Method Not Allowed,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[405]]]
+
+****** comparison: [[[204]]]
+
+/",346,394,1,1,http://localhost:8080/api/customer/owners/156/pets/,24,0,0
+1593803003858,29,Add Visit,404,Not Found,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/",400,349,1,1,http://localhost:8080/api/visit/owners/156/pets//visits,28,0,0
+1593803004062,7,Add Visit,404,Not Found,jp@gc - Ultimate Thread Group 1-1,text,false,"Test failed: code expected to equal /
+
+****** received  : [[[404]]]
+
+****** comparison: [[[201]]]
+
+/",417,349,1,1,http://localhost:8080/api/visit/owners/156/pets//visits,7,0,0
+1593803004367,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593803004815,66,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4121,263,1,1,http://localhost:8080/api/customer/owners,63,0,3
+1593803005185,31,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,28,0,0
+1593803005534,38,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/142,37,0,0
+1593803005796,19,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/142,0,0,0
+1593803006053,38,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/142/pets,37,0,0
+1593803006421,27,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/142/pets,26,0,0
+1593803006739,9,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/142/pets/268,0,0,0
+1593803007238,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,245,353,1,1,http://localhost:8080/api/visit/owners/142/pets/268/visits,26,0,0
+1593803007537,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,245,353,1,1,http://localhost:8080/api/visit/owners/142/pets/268/visits,26,0,0
+1593803007649,27,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,26,0,0
+1593803008054,71,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4092,263,1,1,http://localhost:8080/api/customer/owners,69,0,2
+1593803008511,22,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593803008829,37,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/143,37,0,0
+1593803009202,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/143,0,0,0
+1593803009543,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/143/pets,20,0,0
+1593803009857,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/143/pets,23,0,0
+1593803010323,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/143/pets/270,0,0,0
+1593803010682,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/143/pets/270/visits,25,0,0
+1593803010913,15,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/143/pets/270/visits,14,0,0
+1593803011312,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593803011527,74,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4099,263,1,1,http://localhost:8080/api/customer/owners,71,0,2
+1593803011972,29,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,27,0,0
+1593803012311,39,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/144,39,0,0
+1593803012633,23,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/144,0,0,0
+1593803013146,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/144/pets,21,0,0
+1593803013489,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/144/pets,23,0,0
+1593803013907,22,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/144/pets/272,0,0,0
+1593803014304,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/144/pets/272/visits,27,0,0
+1593803014612,23,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/144/pets/272/visits,23,0,0
+1593803015118,31,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,29,0,0
+1593803015364,93,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4116,263,1,1,http://localhost:8080/api/customer/owners,89,0,4
+1593803015827,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593803016094,33,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/145,33,0,0
+1593803016382,20,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/145,0,0,0
+1593803016707,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/145/pets,25,0,0
+1593803016951,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/145/pets,21,0,0
+1593803017228,25,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/145/pets/274,0,0,0
+1593803017575,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/145/pets/274/visits,25,0,0
+1593803018015,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,245,353,1,1,http://localhost:8080/api/visit/owners/145/pets/274/visits,24,0,0
+1593803018158,27,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,26,0,0
+1593803018443,61,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4176,263,1,1,http://localhost:8080/api/customer/owners,61,0,2
+1593803018942,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593803019276,17,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/146,17,0,0
+1593803019723,20,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/146,0,0,0
+1593803019989,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/146/pets,22,0,0
+1593803020215,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/146/pets,22,0,0
+1593803020664,23,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/146/pets/276,0,0,0
+1593803021031,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,245,353,1,1,http://localhost:8080/api/visit/owners/146/pets/276/visits,27,0,0
+1593803021376,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,245,353,1,1,http://localhost:8080/api/visit/owners/146/pets/276/visits,24,0,0
+1593803021724,27,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,25,0,0
+1593803022072,86,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4184,263,1,1,http://localhost:8080/api/customer/owners,74,0,2
+1593803022362,24,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593803022727,32,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/147,32,0,0
+1593803022951,7,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/147,0,0,0
+1593803023160,6,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/147/pets,5,0,0
+1593803023437,31,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/147/pets,30,0,0
+1593803023745,34,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/147/pets/278,0,0,0
+1593803024146,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,245,353,1,1,http://localhost:8080/api/visit/owners/147/pets/278/visits,27,0,0
+1593803024489,24,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,245,353,1,1,http://localhost:8080/api/visit/owners/147/pets/278/visits,23,0,0
+1593803024539,19,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,18,0,0
+1593803024943,40,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4240,263,1,1,http://localhost:8080/api/customer/owners,40,0,1
+1593803025042,10,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,10,0,0
+1593803025348,32,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/148,32,0,0
+1593803025776,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/148,0,0,0
+1593803026293,13,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/148/pets,13,0,0
+1593803026450,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,267,378,1,1,http://localhost:8080/api/customer/owners/148/pets,21,0,0
+1593803026704,7,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/148/pets/280,0,0,0
+1593803026860,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/148/pets/280/visits,25,0,0
+1593803027176,31,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,258,353,1,1,http://localhost:8080/api/visit/owners/148/pets/280/visits,28,0,0
+1593803027674,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,24,0,0
+1593803028056,70,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4243,263,1,1,http://localhost:8080/api/customer/owners,68,0,2
+1593803028508,27,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,25,0,0
+1593803028978,51,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/149,51,0,0
+1593803029290,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/149,0,0,0
+1593803029877,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/149/pets,22,0,0
+1593803030103,25,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/149/pets,23,0,0
+1593803030430,21,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/149/pets/282,0,0,0
+1593803030641,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/149/pets/282/visits,26,0,0
+1593803030988,7,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/149/pets/282/visits,7,0,0
+1593803031307,28,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,28,0,0
+1593803031753,87,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4273,263,1,1,http://localhost:8080/api/customer/owners,80,0,2
+1593803032115,24,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,24,0,0
+1593803032509,23,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/150,23,0,0
+1593803032794,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/150,0,0,0
+1593803033124,27,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/150/pets,27,0,0
+1593803033352,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/150/pets,23,0,0
+1593803033720,23,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/150/pets/284,0,0,0
+1593803033891,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/150/pets/284/visits,25,0,0
+1593803034051,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,245,353,1,1,http://localhost:8080/api/visit/owners/150/pets/284/visits,27,0,0
+1593803034245,29,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,26,0,0
+1593803034677,92,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4296,263,1,1,http://localhost:8080/api/customer/owners,87,0,2
+1593803035105,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593803035337,35,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/151,35,0,0
+1593803035729,13,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/151,0,0,0
+1593803035889,30,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/151/pets,28,0,0
+1593803036327,39,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/151/pets,39,0,0
+1593803036760,20,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/151/pets/286,0,0,0
+1593803037074,22,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,257,353,1,1,http://localhost:8080/api/visit/owners/151/pets/286/visits,22,0,0
+1593803037375,14,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,245,353,1,1,http://localhost:8080/api/visit/owners/151/pets/286/visits,13,0,0
+1593803037903,23,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,21,0,0
+1593803038336,74,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4322,263,1,1,http://localhost:8080/api/customer/owners,69,0,2
+1593803038529,21,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,21,0,0
+1593803038826,29,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/152,29,0,0
+1593803039097,23,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/152,0,0,0
+1593803039327,9,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/152/pets,9,0,0
+1593803039557,9,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/152/pets,9,0,0
+1593803039859,22,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/152/pets/288,0,0,0
+1593803040166,25,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,245,353,1,1,http://localhost:8080/api/visit/owners/152/pets/288/visits,24,0,0
+1593803040490,24,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,245,353,1,1,http://localhost:8080/api/visit/owners/152/pets/288/visits,23,0,0
+1593803040822,41,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,39,0,0
+1593803041139,71,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4347,263,1,1,http://localhost:8080/api/customer/owners,69,0,2
+1593803041532,19,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,19,0,0
+1593803041764,12,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/153,12,0,0
+1593803041954,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/153,0,0,0
+1593803042299,26,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/153/pets,25,0,0
+1593803042758,26,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,262,378,1,1,http://localhost:8080/api/customer/owners/153/pets,25,0,0
+1593803043131,20,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/153/pets/290,0,0,0
+1593803043391,27,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/153/pets/290/visits,24,0,0
+1593803043811,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,258,353,1,1,http://localhost:8080/api/visit/owners/153/pets/290/visits,28,0,0
+1593803044093,28,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,28,0,0
+1593803044476,67,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4399,263,1,1,http://localhost:8080/api/customer/owners,64,0,2
+1593803044817,27,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,25,0,0
+1593803045326,56,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/154,56,0,0
+1593803045880,24,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/154,0,0,0
+1593803046075,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,266,378,1,1,http://localhost:8080/api/customer/owners/154/pets,22,0,0
+1593803046420,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/154/pets,22,0,0
+1593803046640,7,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/154/pets/292,0,0,0
+1593803047003,40,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/154/pets/292/visits,39,0,0
+1593803047342,29,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/154/pets/292/visits,27,0,0
+1593803047708,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,23,0,0
+1593803048072,68,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4390,263,1,1,http://localhost:8080/api/customer/owners,65,0,4
+1593803048444,20,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,20,0,0
+1593803048937,10,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/155,10,0,0
+1593803049215,23,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/155,0,0,0
+1593803049375,23,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/155/pets,23,0,0
+1593803049654,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/155/pets,22,0,0
+1593803049953,7,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/155/pets/294,0,0,0
+1593803050299,8,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,246,353,1,1,http://localhost:8080/api/visit/owners/155/pets/294/visits,8,0,0
+1593803050655,28,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,245,353,1,1,http://localhost:8080/api/visit/owners/155/pets/294/visits,22,0,0
+1593803051024,22,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,22,0,0
+1593803051263,77,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4415,263,1,1,http://localhost:8080/api/customer/owners,72,0,2
+1593803051563,18,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,18,0,0
+1593803051821,34,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/156,34,0,0
+1593803052199,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/156,0,0,0
+1593803052545,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/156/pets,21,0,0
+1593803052883,22,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,263,378,1,1,http://localhost:8080/api/customer/owners/156/pets,21,0,0
+1593803053311,20,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/156/pets/296,0,0,0
+1593803053800,23,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,257,353,1,1,http://localhost:8080/api/visit/owners/156/pets/296/visits,21,0,0
+1593803054143,23,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,245,353,1,1,http://localhost:8080/api/visit/owners/156/pets/296/visits,22,0,0
+1593803054351,21,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,409,256,1,1,http://localhost:8080/api/vet/vets,21,0,0
+1593803054723,72,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4466,263,1,1,http://localhost:8080/api/customer/owners,68,0,2
+1593803055085,7,Add Owner,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,272,419,1,1,http://localhost:8080/api/customer/owners,7,0,0
+1593803055366,36,Owner Details,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,196,266,1,1,http://localhost:8080/api/gateway/owners/157,36,0,0
+1593803055847,21,Update Owner,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,447,1,1,http://localhost:8080/api/customer/owners/157,0,0,0
+1593803056028,21,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/157/pets,21,0,0
+1593803056245,24,Add Pet,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,265,378,1,1,http://localhost:8080/api/customer/owners/157/pets,22,0,0
+1593803056542,20,Update Pet,204,No Content,jp@gc - Ultimate Thread Group 1-1,,true,,64,400,1,1,http://localhost:8080/api/customer/owners/157/pets/298,0,0,0
+1593803056950,9,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,245,353,1,1,http://localhost:8080/api/visit/owners/157/pets/298/visits,9,0,0
+1593803057410,26,Add Visit,201,Created,jp@gc - Ultimate Thread Group 1-1,text,true,,256,353,1,1,http://localhost:8080/api/visit/owners/157/pets/298/visits,25,0,0
+1593803058011,25,All Vets,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,391,256,1,1,http://localhost:8080/api/vet/vets,23,0,0
+1593803058268,88,All Owners,200,OK,jp@gc - Ultimate Thread Group 1-1,text,true,,4491,263,1,1,http://localhost:8080/api/customer/owners,87,0,2
