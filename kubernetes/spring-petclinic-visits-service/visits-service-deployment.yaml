@@ -5,7 +5,7 @@ metadata:
   labels:
     app: tfm-visits-service
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: tfm-visits-service
@@ -15,29 +15,28 @@ spec:
         app: tfm-visits-service
     spec:
       containers:
-      - name: spring-petclinic-visits-service
-        image: nespasec/spring-petclinic-visits-service:2.2.3-SNAPSHOT
-        ports:
-        - containerPort: 8082
-        resources:
-          limits:
-            memory: 512Mi
-          requests:            
-            memory: 128Mi
-        readinessProbe:
-          httpGet:
-            path: /actuator/health
-            port: 8082
-          initialDelaySeconds: 40
-          timeoutSeconds: 2
-          periodSeconds: 10
-          failureThreshold: 2
-        livenessProbe:
-          httpGet:
-            path: /actuator/health
-            port: 8082
-          initialDelaySeconds: 100
-          timeoutSeconds: 2
-          periodSeconds: 10
-          failureThreshold: 1
-       
+        - name: spring-petclinic-visits-service
+          image: nespasec/spring-petclinic-visits-service:2.2.3          
+          ports:
+            - containerPort: 8082
+          resources:
+            limits:
+              memory: 512Mi
+            requests:
+              memory: 128Mi
+          readinessProbe:
+            httpGet:
+              path: /actuator/health
+              port: 8082
+            initialDelaySeconds: 40
+            timeoutSeconds: 2
+            periodSeconds: 10
+            failureThreshold: 2
+          livenessProbe:
+            httpGet:
+              path: /actuator/health
+              port: 8082
+            initialDelaySeconds: 100
+            timeoutSeconds: 2
+            periodSeconds: 10
+            failureThreshold: 1

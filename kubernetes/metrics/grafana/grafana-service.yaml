@@ -7,8 +7,7 @@ metadata:
       prometheus.io/port:   '3000'
 spec:
   selector: 
-    app: tfm-grafana
-  type: NodePort  
+    app: tfm-grafana    
   ports:
     - port: 3000
       targetPort: 3000

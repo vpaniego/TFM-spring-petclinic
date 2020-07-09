@@ -5,7 +5,7 @@ metadata:
   labels:
     app: tfm-vets-service
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: tfm-vets-service
@@ -15,28 +15,28 @@ spec:
         app: tfm-vets-service
     spec:
       containers:
-      - name: spring-petclinic-vets-service
-        image: nespasec/spring-petclinic-vets-service:2.2.3-SNAPSHOT
-        ports:
-        - containerPort: 8083
-        resources:
-          limits:
-            memory: 512Mi
-          requests:
-            memory: 128Mi
-        readinessProbe:
-          httpGet:
-            path: /actuator/health
-            port: 8083
-          initialDelaySeconds: 40
-          timeoutSeconds: 2
-          periodSeconds: 10
-          failureThreshold: 2
-        livenessProbe:
-          httpGet:
-            path: /actuator/health
-            port: 8083
-          initialDelaySeconds: 100
-          timeoutSeconds: 2
-          periodSeconds: 10
-          failureThreshold: 1
+        - name: spring-petclinic-vets-service
+          image: nespasec/spring-petclinic-vets-service:2.2.3          
+          ports:
+            - containerPort: 8083
+          resources:
+            limits:
+              memory: 512Mi
+            requests:
+              memory: 128Mi
+          readinessProbe:
+            httpGet:
+              path: /actuator/health
+              port: 8083
+            initialDelaySeconds: 40
+            timeoutSeconds: 2
+            periodSeconds: 10
+            failureThreshold: 2
+          livenessProbe:
+            httpGet:
+              path: /actuator/health
+              port: 8083
+            initialDelaySeconds: 100
+            timeoutSeconds: 2
+            periodSeconds: 10
+            failureThreshold: 1
